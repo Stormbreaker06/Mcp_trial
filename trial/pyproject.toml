@@ -1,0 +1,17 @@
+[project]
+name = "trial"
+version = "0.1.0"
+description = "first_use"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.6.0",]
+[[project.authors]]
+name = "Stormbreaker"
+email = "aliasgarabbas42@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+trial = "trial:main"
